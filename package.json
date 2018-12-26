@@ -1,0 +1,20 @@
+{
+  "name": "rngr",
+  "version": "1.0.0",
+  "description": "Ring some birds",
+  "repository": "https://github.com/khazelrigg/rngr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "khazelrigg",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mail-listener2": "^0.3.1",
+    "node-bird": "^1.1.0",
+    "node-geocoder": "^3.22.0"
+  }
+}
